@@ -2,7 +2,7 @@
 require_once '../vendor/autoload.php';
 
     /* http://guestbook.test/?name=Martin   ...Hello Martin!     (just: http://guestbook.test    ...Hello World! */
-echo "Hello ".(isset($_GET['name']) ? $_GET['name'] : "World")."!<br/><br/>";
+echo "Hello ".(isset($_GET['name']) ? $_GET['name'] : "World")." ...have a nice day!<br/><br/>";
 
 
 $array = [1, "apple", 2, "foo", "bar"];
